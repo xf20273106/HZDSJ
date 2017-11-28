@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>交通大数据</title>
+		<script type="text/javascript" src="../jslib/main.js" ></script>
+		<link rel="stylesheet" type="text/css" href="../ol3/ol.css"/>
+		<script type="text/javascript" src="../ol3/ol.js" ></script>
+		<link rel="stylesheet" href="../css/TrafficData.css" />
+	</head>
+	<body style="background-image: url(../image/background.png);">
+		<div class='outdiv leftdiv'>
+			<div class='left subdiv1'>
+				<div class='div_title'><span>【道路违法统计】</span></div>
+				<div class='cont'>
+					<div class='cont_title'><span><i class='cube'></i><i>「非现场执法交通违法统计图」</i></span><span class='right_title'><i>总数：</i><i class='sum'>34531</i></span></div>
+					<div class='chart' id='bar_fxc'></div>
+				</div>
+				<div class='cont'>
+					<div class='cont_title'><span><i class='cube'></i><i>「现场执法交通统计图」</i></span><span class='right_title'><i>总数：</i><i class='sum'>34531</i></span></div>
+					<div class='chart' id='bar_xc'></div>
+				</div>
+			</div>
+			<div class='left subdiv2'>
+				<div class='div_title'><span>【道路交通事故】</span></div>
+				<div class='cont' style='height:76%;'>
+					<div class='cont_title'>
+						<span style='line-height:85px;display:inline-block;'><i style='margin-left:40px;'>当前案件总数：</i><i style='font-size:2em;color:#fbb040;'>1000</i><i>/件</i></span>
+						<span class='right_title' style='width:425px;margin-top:20px;'><i class='icon yellow first'></i><i>去年</i><i class='icon blue first'></i><i>今年</i><i class='first'>环比：<em style='color:#fbb040;'>20%</em></i><i class='first'>同比：<em style='color:#fbb040;'>10%</em></i></span>
+					</div>
+					<div class='chart' id='line_dljt' style='height:80%;'></div>
+				</div>
+			</div>
+		</div>
+		<div class='outdiv centerdiv'>
+			<div id='TrafficMap' class='center subdiv1'></div>
+			<div class='center subdiv2' style='position:relative;'>
+				<div class='cont div1'>
+					<div class='cont_title'><span><i class='cube'></i><i>「当前进出城大道干道车流量」</i></span><span class='right_title'><i>总数：</i><i class='sum'>34531</i></span></div>
+					<div class='chart' id='bar_jccflux'></div>
+				</div>
+				<div class='cont div2'>
+					<div class='cont_title'><span><i class='cube'></i><i>「当前西方向干道车流量统计图」</i></span><span class='right_title'><i>总数：</i><i class='sum'>34531</i></span></div>
+					<div class='chart' id='bar_westflux'></div>
+				</div>
+			</div>
+		</div>
+		<div class='outdiv rightdiv'>
+			<div class='right subdiv1'>
+				<div class='div_title'><span>【机动车、驾驶证统计】</span></div>
+				<div class='cont' style='height:77%;'>
+					<div class='cont_title' style='height:10%;'>
+						<span><i class='cube'></i><i>「机动车、驾驶证统计增长曲线」</i></span>
+						<span class='right_title'>
+							<i><ul><li>机动车</li><li><em>去年</em><em class='icon yellow'></em></li><li><em>今年</em><em class='icon blue'></em></li></ul></i>
+							<i><ul><li>驾驶证</li><li><em>去年</em><em class='icon green'></em></li><li><em>今年</em><em class='icon purple'></em></li></ul></i>
+						</span>
+					</div>
+					<div class='chart' id='line_jdc'></div>
+				</div>
+			</div>
+			<div class='right subdiv2'>
+				<div class='div_title'><span>【机动车辆辖区分布统计图】</span></div>
+				<div class='chart' id='pie_jdcl' style='height:77%;'></div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="../jslib/me.js"></script>
+	<script type="text/javascript" src="../jslib/theme.js"></script>
+	<script type="text/javascript" src="../js/private/TrafficData.js" ></script>
+</html>

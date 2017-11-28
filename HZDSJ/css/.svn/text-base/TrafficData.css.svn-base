@@ -1,0 +1,37 @@
+/*整体布局*/
+.outdiv{position:absolute;top:0px;bottom:0px;width:24%;font-size:2em;}
+.centerdiv{top:160px;width:50%;left:25%;border:8px solid #5ef0ff;}
+.leftdiv{left:0px;}
+.rightdiv{right:0px;}
+/*标题样式*/
+.div_title{height:285px;line-height:330px;color:#fff;position:relative;}
+.div_title span{font-weight:bold;font-size:2em;}
+.right .div_title span{position:absolute;right:0px;}
+.cont{color:#fff;}
+.cont .cont_title{padding:20px 0px;position: relative;}
+.cont .cont_title span i{float:left;}
+.cont .cont_title span .cube{width: 20px;height: 45px;background: #e6d929;margin-left: 40px;}
+.yellow{background:#e6d929;}
+.blue{background:#27aae1;}
+.green{background:#b7dd68;}
+.purple{background:#a27fcd;}
+.cont .cont_title .right_title{position:absolute;right:50px;}
+.sum{background:url(../image/sum_bg_03.png) no-repeat;display: inline-block;width: 105px;height: 45px;padding: 0px 0px 20px 20px;}
+/*统计图公用样式*/
+.chart{height:85%;}
+/*leftdiv*/
+.left.subdiv1{background:url(../image/traffic-left.png) no-repeat;width:100%;height:52.5%;margin-bottom:3%;}
+.left.subdiv1 .cont{height:39%;}
+.left.subdiv2{background:url(../image/traffic-left02.png) no-repeat;width:100%;height:45%;}
+.left.subdiv2 .cont .cont_title span .icon{width: 45px;height: 45px;}
+.left.subdiv2 .cont .cont_title span .first{margin:0px 10px 10px 40px;}
+/*centerdiv*/
+.center{height:50%;width:100%;}
+.centerdiv .center .cont{position:absolute;width:49.9%;height:100%;background:#102B65;}
+.centerdiv .center .div1{left:0px;border-right: 8px solid #5ef0ff;;}
+.centerdiv .center .div2{right:0px;}
+.centerdiv .center .cont .cont_title{height:10%;}
+/*rightdiv*/
+.right{background:url(../image/traffic-right.png) no-repeat;width:100%;height:48%;margin-bottom:5%;}
+.right.subdiv1 .cont .cont_title .right_title .icon{width:150px;height:15px;display:inline-block;margin: 10px 40px 0px 20px;}
+.right.subdiv1 .cont .cont_title .right_title ul>li{text-align:center;}

@@ -1,0 +1,43 @@
+/*
+ * (c) Copyright 2017 jwl. All Rights Reserved.
+ * 
+ *  */
+
+/*框架*/
+.left,.center1,.center2,.center3,.right{float: left;}
+.left{width: 2344px;height: 2690px;background: url(../image/fireData1.png) no-repeat;}
+.center1{width: 1700px;height: 2510px;background: url(../image/fireData2.png) no-repeat;margin-left: 40px;margin-top: 185px; }
+.center2{width: 1560px;height: 2510px;background: url(../image/fireData3.png) no-repeat;margin-left: 30px;margin-top: 185px;}
+.center3{width: 2345px;height: 2510px;background: url(../image/fireData4.png) no-repeat;margin-left: 35px;margin-top: 185px;}
+.right{width: 1470px;height: 2690px;background: url(../image/fireData5.png) no-repeat;margin-left: 35px;}
+
+.headSpan { height: 280px;width: 100%;text-align: center;color: #fff;font-size: 70px;font-weight: 700;line-height: 320px;}
+.center2 .headSpan,.center3 .headSpan{line-height: 270px;}
+
+/*左*/
+.left .zdGzDlWz{width: 2310px;height: 2380px;padding: 15px;}
+
+/*中1*/
+.zhsgjqdj{width: 100%;height: 1400px;}
+.gjdzhsg{width: 100%;height: 810px;}
+
+/*中2*/
+.sjzddwNum{width: 100%;height: 820px;}
+.gdszddwNum{width: 100%;height: 820px;}
+.xxdwBottom{width: 100%;height: 570px;}
+.xxdwBottom1{width: 49%;height: 570px;float: left;}
+.xxdwBottom2{width: 49%;height: 570px;float: left;}
+
+/*中3*/
+.whpqytj{width: 100%;height: 900px;}
+/*危化品企业*/
+.whpqySelect{background: #2F3E5F;}
+.whpqy{width: 2250px;height: 1300px;padding: 10px 35px;}
+.whpqy >li{background: #274E9D;}
+.whpqy>span{font-size: 50px;color: #fff;height: 120px;line-height: 150px;}
+.whpqy li{height: 120px;line-height: 120px;}
+.whpqy li span{width: 550px;text-align: center;display: inline-block;color: #fff;font-size: 45px;}
+
+/*右*/
+.hzzgqk{width: 1350px;height: 1000px;padding:50px;}
+.hzyhdw{width: 100%;height: 1290px;}

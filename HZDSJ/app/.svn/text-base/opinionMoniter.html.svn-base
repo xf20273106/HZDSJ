@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>情报舆情</title>
+		<script type="text/javascript" src="../jslib/main.js" ></script>
+		<link rel="stylesheet" type="text/css" href="../css/opinionMoniter.css"/>
+		<script type="text/javascript" src="../jslib/theme.js" ></script>
+		<script type="text/javascript" src="../jslib/me.js" ></script>
+		<script type="text/javascript" src="../jslib/jquery.SuperSlide.2.1.1.js" ></script>
+	</head>
+	<body style="background-image: url(../image/background.png);">
+		<div class="left">
+			<div class="bzOpinionNum">
+				<div class="headSpan">
+					<span>【本周情报信息数量】</span>
+				</div>
+				<div class="bzOpinionNumBody">
+					<div class="jbzlNum">
+						<img src="../image/allareayelloww.png"/>
+						<img src="../image/allareayellown.png" class="rotate roate"/>
+						<span>「交办指令信息」</span>
+						<div class="centerNum">
+							<span>100</span><br />
+							<span class="btNum">/条</span>
+						</div>
+					</div>
+					<div class="jbxxNum">
+						<img src="../image/allareabluew.png"/>
+						<img src="../image/allareabluen.png" class="rotate roate"/>
+						<span>「接报信息」</span>
+						<div class="centerNum">
+							<span>90</span><br />
+							<span class="btNum">/条</span>
+						</div>
+					</div>
+					<div class="xxzyNum">
+						<img src="../image/allareayelloww.png"/>
+						<img src="../image/allareayellown.png" class="rotate roate"/>
+						<span>「信息转阅」</span>
+						<div class="centerNum">
+							<span>100</span><br />
+							<span class="btNum">/条</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="jbzlInfo">
+				<div class="headSpan">
+					<span>【交办指令信息】</span>
+				</div>
+				<div class="jbzlInfoBody">
+					<li>
+						<span class="jbID">序号</span>
+						<span class="jbDw">发布单位</span>
+						<span class="jbTime">发布日期</span>
+						<span class="jbTitle jbTitle0">信息标题</span>
+					</li>
+					<ul class="bd">
+						<li class="selectJb">
+							<span class="jbID">1</span>
+							<span class="jbDw">市局</span>
+							<span class="jbTime">2017.11.5</span>
+							<span class="jbTitle">关于进一步加强我市的的额加强我市的的加强我市的的</span>
+						</li>
+						<li>
+							<span class="jbID">2</span>
+							<span class="jbDw">市局</span>
+							<span class="jbTime">2017.11.5</span>
+							<span class="jbTitle">关于进一步加强我市的加强我市的的的额</span>
+						</li>
+						<li class="selectJb">
+							<span class="jbID">3</span>
+							<span class="jbDw">市局</span>
+							<span class="jbTime">2017.11.5</span>
+							<span class="jbTitle">关于进一步加强我市的的额</span>
+						</li>
+						<li>
+							<span class="jbID">4</span>
+							<span class="jbDw">市局</span>
+							<span class="jbTime">2017.11.5</span>
+							<span class="jbTitle">关于进一步加强我市的加强我市的的加强我市的的的额</span>
+						</li>
+						<li class="selectJb">
+							<span class="jbID">5</span>
+							<span class="jbDw">市局</span>
+							<span class="jbTime">2017.11.5</span>
+							<span class="jbTitle">关于进一步加加强我市的的强我市的的额</span>
+						</li>
+						<li>
+							<span class="jbID">6</span>
+							<span class="jbDw">市局</span>
+							<span class="jbTime">2017.11.5</span>
+							<span class="jbTitle">关于进一步加强加强我市的的我市的的额</span>
+						</li>
+						<li class="selectJb">
+							<span class="jbID">7</span>
+							<span class="jbDw">市局</span>
+							<span class="jbTime">2017.11.5</span>
+							<span class="jbTitle">关于进一步加强我市的关于进一步加强我市的的额的额</span>
+						</li>
+						<li>
+							<span class="jbID">8</span>
+							<span class="jbDw">市局</span>
+							<span class="jbTime">2017.11.5</span>
+							<span class="jbTitle">关于进一步加强我市的的额</span>
+						</li>
+						<li class="selectJb">
+							<span class="jbID">9</span>
+							<span class="jbDw">市局</span>
+							<span class="jbTime">2017.11.5</span>
+							<span class="jbTitle">关于进一步加关于进一步加强我市的的额强我市的的额</span>
+						</li>
+						<li>
+							<span class="jbID">10</span>
+							<span class="jbDw">市局</span>
+							<span class="jbTime">2017.11.5</span>
+							<span class="jbTitle">关于进一步加强我市的的额</span>
+						</li>
+						<li class="selectJb">
+							<span class="jbID">11</span>
+							<span class="jbDw">市局</span>
+							<span class="jbTime">2017.11.5</span>
+							<span class="jbTitle">关于进一步加关于进一步加强我市的的额强我市的的额</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div class="center1">
+			<div class="jbInfo">
+				<div class="headSpan headSpan1">
+					<span>【接报信息】</span>
+				</div>
+				<div class="jbxxInfoBody">
+					<li>
+						<span class="jbxxID">序号</span>
+						<span class="jbxxDw">发布单位</span>
+						<span class="jbxxTime">发布日期</span>
+						<span class="jbxxTitle jbTitle0">「 信息标题 」</span>
+					</li>
+					<ul class="bd">
+						<li class="selectJbxx">
+							<span class="jbxxID">1</span>
+							<span class="jbxxDw">市局</span>
+							<span class="jbxxTime">2017.11.5</span>
+							<span class="jbxxTitle">关于进一步加强我市的的额加强我市的的加强我市的的</span>
+						</li>
+						<li>
+							<span class="jbxxID">2</span>
+							<span class="jbxxDw">市局</span>
+							<span class="jbxxTime">2017.11.5</span>
+							<span class="jbxxTitle">关于进一步加强我市的加强我市的的的额</span>
+						</li>
+						<li class="selectJbxx">
+							<span class="jbxxID">3</span>
+							<span class="jbxxDw">市局</span>
+							<span class="jbxxTime">2017.11.5</span>
+							<span class="jbxxTitle">关于进一步加强我市的的额加强我市的的加强我市的的</span>
+						</li>
+						<li>
+							<span class="jbxxID">4</span>
+							<span class="jbxxDw">市局</span>
+							<span class="jbxxTime">2017.11.5</span>
+							<span class="jbxxTitle">关于进一步加强我市的加强我市的的的额</span>
+						</li>
+						<li class="selectJbxx">
+							<span class="jbxxID">5</span>
+							<span class="jbxxDw">市局</span>
+							<span class="jbxxTime">2017.11.5</span>
+							<span class="jbxxTitle">关于进一步加强我市的的额加强我市的的加强我市的的</span>
+						</li>
+						<li>
+							<span class="jbxxID">6</span>
+							<span class="jbxxDw">市局</span>
+							<span class="jbxxTime">2017.11.5</span>
+							<span class="jbxxTitle">关于进一步加强我市的加强我市的的的额</span>
+						</li>
+						<li class="selectJbxx">
+							<span class="jbxxID">7</span>
+							<span class="jbxxDw">市局</span>
+							<span class="jbxxTime">2017.11.5</span>
+							<span class="jbxxTitle">关于进一步加强我市的的额加强我市的的加强我市的的</span>
+						</li>
+						<li>
+							<span class="jbxxID">8</span>
+							<span class="jbxxDw">市局</span>
+							<span class="jbxxTime">2017.11.5</span>
+							<span class="jbxxTitle">关于进一步加强我市的加强我市的的的额</span>
+						</li>
+						<li class="selectJbxx">
+							<span class="jbxxID">9</span>
+							<span class="jbxxDw">市局</span>
+							<span class="jbxxTime">2017.11.5</span>
+							<span class="jbxxTitle">关于进一步加强我市的的额加强我市的的加强我市的的</span>
+						</li>
+						<li>
+							<span class="jbxxID">10</span>
+							<span class="jbxxDw">市局</span>
+							<span class="jbxxTime">2017.11.5</span>
+							<span class="jbxxTitle">关于进一步加强我市的加强我市的的的额</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="infoZy">
+				<div class="headSpan headSpan1">
+					<span>【信息转阅】</span>
+				</div>
+				<div class="xxzyBody">
+					<li>
+						<span class="xxzyID">序号</span>
+						<span class="xxzyDw">发布单位</span>
+						<span class="xxzyTime">发布日期</span>
+						<span class="xxzyTitle xxzy0">「 信息标题 」</span>
+					</li>
+					<ul class="bd">
+						<li class="selectxxzy">
+							<span class="xxzyID">1</span>
+							<span class="xxzyDw">市局</span>
+							<span class="xxzyTime">2017.11.5</span>
+							<span class="xxzyTitle">关于进一步加强我市的的额加强我市的的加强我市的的</span>
+						</li>
+						<li>
+							<span class="xxzyID">2</span>
+							<span class="xxzyDw">市局</span>
+							<span class="xxzyTime">2017.11.5</span>
+							<span class="xxzyTitle">关于进一步加强我市的加强我市的的的额</span>
+						</li>
+						<li class="selectxxzy">
+							<span class="xxzyID">3</span>
+							<span class="xxzyDw">市局</span>
+							<span class="xxzyTime">2017.11.5</span>
+							<span class="xxzyTitle">关于进一步加强我市的的额加强我市的的加强我市的的</span>
+						</li>
+						<li>
+							<span class="xxzyID">4</span>
+							<span class="xxzyDw">市局</span>
+							<span class="xxzyTime">2017.11.5</span>
+							<span class="xxzyTitle">关于进一步加强我市的加强我市的的的额</span>
+						</li>
+						<li class="selectxxzy">
+							<span class="xxzyID">5</span>
+							<span class="xxzyDw">市局</span>
+							<span class="xxzyTime">2017.11.5</span>
+							<span class="xxzyTitle">关于进一步加强我市的的额加强我市的的加强我市的的</span>
+						</li>
+						<li>
+							<span class="xxzyID">6</span>
+							<span class="xxzyDw">市局</span>
+							<span class="xxzyTime">2017.11.5</span>
+							<span class="xxzyTitle">关于进一步加强我市的加强我市的的的额</span>
+						</li>
+						<li class="selectxxzy">
+							<span class="xxzyID">7</span>
+							<span class="xxzyDw">市局</span>
+							<span class="xxzyTime">2017.11.5</span>
+							<span class="xxzyTitle">关于进一步加强我市的的额加强我市的的加强我市的的</span>
+						</li>
+						<li>
+							<span class="xxzyID">8</span>
+							<span class="xxzyDw">市局</span>
+							<span class="xxzyTime">2017.11.5</span>
+							<span class="xxzyTitle">关于进一步加强我市的加强我市的的的额</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div class="center2">
+			<div class="yqType">
+				<div class="headSpan headSpan1">
+					<span>【舆情类型指数】</span>
+				</div>
+				<div class="yqTypezsBody" id="yqTypezsBody">
+					
+				</div>
+			</div>
+			<div class="yqqS">
+				<div class="headSpan headSpan1">
+					<span>【舆情属性趋势图  】</span>
+				</div>
+				<div class="yqqSBody" id="yqqSBody">
+					
+				</div>
+			</div>
+		</div>
+		
+		<div class="right">
+			<div class="yqFLTJ">
+				<div class="headSpan headSpan2">
+					<span>【 舆情分类统计 】</span>
+				</div>
+				<div style="clear: both;"></div>
+				<div class="yqFLTJBody" id="yqFLTJBody">
+					
+				</div>
+			</div>
+			<div class="jnYQHZ">
+				<div class="headSpan headSpan2">
+					<span>【境内舆情汇总 】</span>
+				</div>
+				<div style="clear: both;"></div>
+				<div class="jnYQHZBody">
+					<p>「今日预警舆情信息」</p>
+					<ul class="bd">
+						<li >
+							<span class="jnYQHZType">负面</span>
+							<span class="jnYQHZOrigin">【微博】</span>
+							<span class="jnYQHZInfo">国外,新闻联播</span>
+							<span class="jnYQHZOrigins">新浪微博</span>
+							<span class="jnYQHZTime">2017-11-14 09:39</span>
+						</li>
+						<li class="selectjnYQHZ">
+							<span class="jnYQHZType">负面</span>
+							<span class="jnYQHZOrigin">【微博】</span>
+							<span class="jnYQHZInfo">国外,新闻联播</span>
+							<span class="jnYQHZOrigins">新浪微博</span>
+							<span class="jnYQHZTime">2017-11-14 09:39</span>
+						</li>
+						<li >
+							<span class="jnYQHZType">负面</span>
+							<span class="jnYQHZOrigin">【微博】</span>
+							<span class="jnYQHZInfo">国外,新闻联播</span>
+							<span class="jnYQHZOrigins">新浪微博</span>
+							<span class="jnYQHZTime">2017-11-14 09:39</span>
+						</li>
+						<li class="selectjnYQHZ">
+							<span class="jnYQHZType">负面</span>
+							<span class="jnYQHZOrigin">【微博】</span>
+							<span class="jnYQHZInfo">国外,新闻联播</span>
+							<span class="jnYQHZOrigins">新浪微博</span>
+							<span class="jnYQHZTime">2017-11-14 09:39</span>
+						</li>
+						<li >
+							<span class="jnYQHZType">负面</span>
+							<span class="jnYQHZOrigin">【微博】</span>
+							<span class="jnYQHZInfo">国外,新闻联播</span>
+							<span class="jnYQHZOrigins">新浪微博</span>
+							<span class="jnYQHZTime">2017-11-14 09:39</span>
+						</li>
+						<li class="selectjnYQHZ">
+							<span class="jnYQHZType">负面</span>
+							<span class="jnYQHZOrigin">【微博】</span>
+							<span class="jnYQHZInfo">国外,新闻联播</span>
+							<span class="jnYQHZOrigins">新浪微博</span>
+							<span class="jnYQHZTime">2017-11-14 09:39</span>
+						</li>
+						<li class="">
+							<span class="jnYQHZType">负面</span>
+							<span class="jnYQHZOrigin">【微博】</span>
+							<span class="jnYQHZInfo">国外,新闻联播</span>
+							<span class="jnYQHZOrigins">新浪微博</span>
+							<span class="jnYQHZTime">2017-11-14 09:39</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script>
+		jQuery(".jbzlInfoBody").slide({mainCell:".bd",autoPage:true,effect:"topLoop",autoPlay:true,vis:9});
+		jQuery(".jbxxInfoBody").slide({mainCell:".bd",autoPage:true,effect:"topLoop",autoPlay:true,vis:8});
+		jQuery(".xxzyBody").slide({mainCell:".bd",autoPage:true,effect:"topLoop",autoPlay:true,vis:6});
+		jQuery(".jnYQHZBody").slide({mainCell:".bd",autoPage:true,effect:"topLoop",autoPlay:true,vis:7});
+		$.extend({
+			yqqSBody:function(id,url){
+				$.ajax({
+					type:"get",
+					url:url,
+					async:true,
+					dataType:"json",
+					success:function(data){
+						var data = data.data;
+						var tit = data[0].title;
+						var names = data[0].names;
+						var xData = data[0].xData;
+						var seriesData = data[0].seriesData;
+						echart(tit,names,xData,seriesData);
+					},error:function(data){
+						alert("请求异常"+data);
+					}
+				});
+				function echart(tit,names,xData,seriesData){
+					var myChart = echarts.init(document.getElementById(id));
+					var namearr = [];
+					for (var i=0;i<names.length;i++) {
+						namearr.push(names[i]);
+					}
+					theme.xAxis[0].data = xData;
+					var option = {
+					    title: {
+					        text: tit,
+					        textStyle:{
+					        	color:'#fff',
+					        	fontSize:60
+					        }
+					    },
+					    tooltip: {
+					        trigger: 'axis'
+					    },
+					    grid:{
+					    	x:120,
+					    	y:170,
+					    	x2:80,
+					    	y2:50
+					    },
+					    legend: {
+					        data:namearr,
+					        itemWidth:120,
+					        itemHeight:60,
+					        x:'right',
+					        textStyle:{
+					        	color:'#fff',
+					        	fontSize:40
+					        },
+					        padding:[0 ,100 ,50 ,0]
+					    },
+					    xAxis: theme.xAxis,
+					    yAxis:theme.yAxis,
+					    series: [
+					        {
+					            name:namearr[0],
+					            type:'line',
+					            data:seriesData[0],
+					            symbolSize: 36,
+               					symbol: "circle",  
+					            lineStyle:{
+									normal:{
+										width:5,
+										color:'#fff'
+									}
+								},itemStyle: {
+						            normal: {
+						                color: "#FB4243"
+						            }
+						        }
+					        },{
+					            name:namearr[1],
+					            type:'line',
+					            data:seriesData[1],
+               					symbolSize: 36,
+               					symbol: "circle",  
+					            lineStyle:{
+									normal:{
+										width:5,
+										color:'#fff'
+									}
+								},itemStyle: {
+						            normal: {
+						                color: "#FFE536"
+						            }
+						        }
+					        },{
+					            name:namearr[2],
+					            type:'line',
+					            data:seriesData[2],
+					            symbolSize: 36,
+               					symbol: "circle",  
+					            lineStyle:{
+									normal:{
+										width:5,
+										color:'#fff'
+									}
+								},itemStyle: {
+						            normal: {
+						                color: "#5EF0FF"
+						            }
+						        }
+					        },{
+					            name:namearr[3],
+					            type:'line',
+					            data:seriesData[3],
+					            symbolSize: 36,
+               					symbol: "circle",  
+					            lineStyle:{
+									normal:{
+										width:5,
+										color:'#fff'
+									}
+								},itemStyle: {
+						            normal: {
+						                color: "#B691E4"
+						            }
+						        }
+					        }
+					    ]
+					};
+					myChart.setOption(option,true);
+					$(window).resize(function(){
+						myChart.resize();
+					});
+					setInterval(function(){
+						myChart.clear();
+						myChart.setOption(option,true);
+					},4000);
+				}
+		  	},yqFLTJBody:function(id,url){
+				$.ajax({
+					type:"get",
+					url:url,
+					async:true,
+					dataType:"json",
+					success:function(data){
+						var data = data.data;
+						var tit = data[0].title;
+						var names = data[0].names;
+						var xData = data[0].xData;
+						var seriesData = data[0].seriesData;
+						echart(tit,names,xData,seriesData);
+					},error:function(data){
+						alert("请求异常"+data);
+					}
+				});
+				function echart(tit,names,xData,seriesData){
+					var myChart = echarts.init(document.getElementById(id));
+					var namearr = [];
+					for (var i=0;i<xData.length;i++) {
+						namearr.push(xData[i]);
+					}
+					var seriesArr = [];
+					for (var i=0;i<xData.length;i++) {
+						var seriesA = {
+							value:seriesData[0][i],
+							name:xData[i]
+						}
+						seriesArr.push(seriesA)
+					}
+					var option = {
+					    grid:{
+					    	x:120,
+					    	y:170,
+					    	x2:380,
+					    	y2:50
+					    }, tooltip : {
+					        trigger: 'item',
+					        formatter: "{a} <br/>{b} : {c} ({d}%)",
+					        padding:[30,20,30,20]
+					    },
+					    legend: {
+					        data:namearr,
+					        x:'right',
+					        y:'center',
+					        textStyle:{
+					        	color:'#fff',
+					        	fontSize:36
+					        },itemWidth:60,
+					        itemHeight:40,
+					        orient:'vertical',
+					        padding:[0 ,200 ,0 ,0],
+					        itemGap:30
+					    },
+					    series: [
+					         {
+					            type:'pie',
+					            radius : [50, 310],
+					            center : ['40%', '48%'],
+					            roseType : 'area',
+					            data:seriesArr,
+					            color:theme.pieColor,
+					            label:{
+						        	normal:{
+						        		fontSize:36,
+						        		color:'#fff',
+						        		formatter:'{b}({d}%)'
+						        	}
+						        },
+						        labelLine:{
+						        	normal:{
+						        		show:true,
+						        		length:10,
+						        		lineStyle:{
+						        			color:'#fff',
+						        			width:5
+						        		}
+						        	}
+						        }
+					        }
+					    ]
+					};
+					myChart.setOption(option,true);
+					var timeTicket = null;
+					timeTicket && clearInterval(timeTicket);
+					var count=0;
+					var num = xData.length;
+					timeTicket = setInterval(function() {
+						//手动触发事件
+					    myChart.dispatchAction({
+					        type: 'downplay',      //取消高亮指定的数据图形
+					        seriesIndex: 0
+					    });
+					    myChart.dispatchAction({
+					        type: 'highlight',    //控制高亮
+					        seriesIndex: 0,
+					        dataIndex: count % num
+					    });
+					    myChart.dispatchAction({
+					        type: 'showTip',     //提示框的显示
+					        seriesIndex: 0,
+					        dataIndex: count % num
+					    });
+					    count++;
+					}, 3000);
+				}
+		  	},
+		  	yqTypezsBody:function(id,url){
+				$.ajax({
+					type:"get",
+					url:url,
+					async:true,
+					dataType:"json",
+					success:function(data){
+						var data = data.data;
+						var tit = data[0].title;
+						var names = data[0].names;
+						var xData = data[0].xData;
+						var seriesData = data[0].seriesData;
+						echart(tit,names,xData,seriesData);
+					},error:function(data){
+						alert("请求异常"+data);
+					}
+				});
+				function echart(tit,names,xData,seriesData){
+					var myChart = echarts.init(document.getElementById(id));
+					var xDataArr = [];
+					for (var i=0;i<xData.length;i++) {
+						xDataArr.push(xData[i]);
+					}
+					var seriesArr = [];
+					for (var i=0;i<xData.length;i++) {
+						var seriesA = {
+							value:seriesData[0][i],
+							name:xData[i]
+						}
+						seriesArr.push(seriesA)
+					}
+					stateColor = ["#FBB040","#27AAE1","#58595B","#BE1E2D","#7AB3FE","#FF7D14","#FFEF14","#3A3FFB","#FD8DC5","#22BDCF","#C23531","#ADFD8D","#D48265"];
+					var option = {
+						 title: {
+					        text: tit,
+					        textStyle:{
+					        	color:'#fff',
+					        	fontSize:60
+					        },
+					        x:100,
+					        y:30
+					    },
+					    tooltip : {
+					        trigger: 'item',
+					        formatter: "{a} <br/>{b} : {c}",
+					        padding:[30,20,30,20]
+					    },
+						grid:{
+					    	x:120,
+					    	y:170,
+					    	x2:100,
+					    	y2:150
+					   },
+					    xAxis : [
+					        {
+					            type : 'category',
+					            data :xDataArr,
+					            boundaryGap : true,
+								axisLine: { // 坐标轴线
+							      show: true, // 默认显示，属性show控制显示与否
+							      lineStyle: { // 属性lineStyle控制线条样式
+							        color:'#fff',
+							        width: 7
+							      }
+							    },
+						        axisTick: { // 坐标轴小标记
+							      length: 15, // 属性length控制线长
+							      lineStyle: { // 属性lineStyle控制线条样式
+							        color: 'auto'
+							      },
+							      alignWithLabel:true
+							    },
+						        axisLabel:{
+						        	color:'#fff',
+						        	fontSize:40
+						        }
+					        }
+					    ],
+					    yAxis : theme.yAxis,
+					    series : [
+					        {
+					            type:'scatter',
+					            barWidth: '60%',
+					            data:seriesArr,
+					            itemStyle:{
+								    normal: {
+								        color: function (params){
+					                		return stateColor[params.dataIndex];
+					            		}
+								    }
+								},symbolSize: function (data) {
+						            return data / 1;
+						        },
+					        }
+					    ]
+					};
+					myChart.setOption(option,true);
+					var timeTicket = null;
+					timeTicket && clearInterval(timeTicket);
+					var count=0;
+					var num = xData.length;
+					timeTicket = setInterval(function() {
+						//手动触发事件
+					    myChart.dispatchAction({
+					        type: 'downplay',      //取消高亮指定的数据图形
+					        seriesIndex: 0
+					    });
+					    myChart.dispatchAction({
+					        type: 'highlight',    //控制高亮
+					        seriesIndex: 0,
+					        dataIndex: count % num
+					    });
+					    myChart.dispatchAction({
+					        type: 'showTip',     //提示框的显示
+					        seriesIndex: 0,
+					        dataIndex: count % num
+					    });
+					    count++;
+					}, 3000);
+				}
+		  	}
+		})
+		$.yqqSBody("yqqSBody","../json/option_qs.json");
+		$.yqFLTJBody("yqFLTJBody","../json/option_fl.json");
+		$.yqTypezsBody("yqTypezsBody","../json/option_fl.json");
+	</script>
+</html>
+

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>人口数据</title>
+		<script type="text/javascript" src="../jslib/main.js" ></script>
+		<link rel="stylesheet" href="../css/peopleData.css" />
+	</head>
+	<body>
+		<div class="div left_div">
+			<div class="model left1">
+				<div class="peopleTitle">
+					<span class="cn" style='line-height:220px;'>【常住人口数据】</span>
+				</div>
+				<div class="peopleContent">
+					<span class='contInfo' style='width:51%;'>
+						<i class="cube"></i>
+						<i class="cont_title">2018年常住人口统计图</i>
+					</span>
+					<span class='contInfo right' style="width:29%;">
+						<i class="cont_num">常住人口总人数：40万/人</i>
+						<i class='cube_man'></i><i>男性</i>
+						<i class='cube_woman'></i><i>女性</i>		
+					</span>
+					<div id='ChartCZ' style="width:100%;height:900px;"></div>
+				</div>
+			</div>
+			<div class="model left2">
+				<div class="peopleTitle">
+					<span class="cn">【流动人口数据】</span>
+				</div>
+				<div class='peopleContent'>
+					<div class='div_cont1'>
+						<div class="roateNum">
+							<img src="../image/allareabluew.png"/ ><br>
+							<img src="../image/allareabluen.png"  class="roate"/>
+							<span>今日登记人数</span>
+							<div class="centerNum">
+								<span class='num'>120</span><br>
+								<span>人</span>
+							</div>
+						</div>
+						<div class="roateNum">
+							<img src="../image/allareayelloww.png"/ ><br>
+							<img src="../image/allareayellown.png"  class="roate"/>
+							<span>今日注销人数</span>
+							<div class="centerNum">
+								<span class='num'>110</span><br>
+								<span>人</span>
+							</div>
+						</div>
+						<div class="roateNum">
+							<img src="../image/allareayelloww.png"/ ><br>
+							<img src="../image/allareayellown.png"  class="roate"/>
+							<span>本月登记人数</span>
+							<div class="centerNum">
+								<span class='num'>110</span><br>
+								<span>人</span>
+							</div>
+						</div>
+						<div class="roateNum">
+							<img src="../image/allareabluew.png"/ ><br>
+							<img src="../image/allareabluen.png"  class="roate"/>
+							<span>年度登记人数</span>
+							<div class="centerNum">
+								<span class='num'>20</span><br>
+								<span>人</span>
+							</div>
+						</div>
+					</div>
+					<div class='div_cont2' style='position:relative;'>
+						<span class='contInfo' style='width:51%;'>
+							<i class="cube"></i>
+							<i class="cont_title">2018年流动人口年龄段统计图</i>
+						</span>
+						<span class='contInfo right' style="width:10%;top:43%;">
+							<i class='cube_man'></i><i>男性</i>
+							<i class='cube_woman'></i><i>女性</i>		
+						</span>
+						<div id='ChartLD' style="width:100%;height:540px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="div center_div">
+			<div class='model center' style='margin-right:1.6%;'>
+				<div class="peopleTitle">
+					<span class="cn">【重点人员信息数据】</span>
+				</div>
+				<div class='peopleContent'>
+					<span class='contInfo' style='width:51%;'>
+						<i class="cube"></i>
+						<i class="cont_title">2018年重点人员类型统计图</i>
+					</span>
+					<div id="ChartZDPie" style="width:100%;height:1200px;"></div>
+					<span class='contInfo' style='width:36%;'>
+						<i class="cube"></i>
+						<i class="cont_title">2018年重点人员区域人口分布统计图</i>
+					</span>
+					<div id="ChartZDBar" style="width:100%;height:800px;"></div>
+				</div>
+			</div>
+			<div class='model center'>
+				<div class="peopleTitle">
+					<span class="cn">【区域人口分布图】</span>
+				</div>
+				<div class='peopleContent'>
+					<span class='contInfo' style="float:right;width:12%;">
+						<i class="cont_num">总数：345301/人</i>	
+					</span>
+					<div id="ChartQY" style="width:100%;height:2000px;"></div>
+				</div>
+			</div>
+		</div>
+		<div class="div right_div">
+			<div class="model right1">
+				<div class="peopleTitle">
+					<span class="cn" style="float:right;">【酒店入住数据】</span>
+				</div>
+				<div class="peopleContent">
+					<div class="cont1">
+						<span class='contInfo' style='width:51%;'>
+							<i><em>酒店总数</em><em class='em_num'>300</em></i>
+							<i><em>旅游人数</em><em class='em_num'>3000</em></i>
+							<i><em>入住率</em><em class='em_num'>3000</em></i>
+						</span>
+						<span class='contInfo right' style="width:10%;">
+							<i>今年</i><i class='cube_man long'></i><br>
+							<i>去年</i><i class='cube_woman long'></i>		
+						</span>
+					</div>
+					<div class="cont2">
+						<span class='contInfo' style='width:51%;'>
+							<i class="cube"></i>
+							<i class="cont_title">2018年旅游人数统计图</i>
+						</span>
+						<div id="ChartJD" style="width:100%;height:630px;"></div>
+					</div>
+				</div>
+			</div>
+			<div class="model right2">
+				<div class="peopleTitle" style="height:23%;">
+					<span class="cn" style='line-height:340px;float:right;'>【网吧上网数据】</span>
+				</div>
+				<div class='peopleContent'>
+					<span class='contInfo' style='width:51%;'>
+						<i class="cube"></i>
+						<i class="cont_title">2018年网吧上网人数统计图</i>
+					</span>
+					<span class='contInfo right' style="width:33%;">
+						<i>网吧总数：120家</i><i>机位总数：120家</i><i>上机率：50%</i>		
+					</span>
+					<div id="ChartWB" style="width:100%;height:820px;"></div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="../jslib/me.js" ></script>
+	<script type="text/javascript" src="../jslib/theme.js" ></script>
+	<script type="text/javascript" src="../js/private/peopleData.js" ></script>
+</html>

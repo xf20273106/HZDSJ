@@ -1,0 +1,16 @@
+/*整体架构*/
+body{position:relative;background-image: url(../image/background.png);width: 9660px;height: 3164px;}
+.body{width: 9560px;margin: 0 auto;height: 3164px;}
+.div_head{position:absolute;z-index: 10;}
+.div_body{position:absolute;height: 2700px;width: 9560px;position: absolute;top: 390px;}
+#mainIframe{height:100%;width:100%;border: none;}
+
+/*头部*/
+.div_head .headimg{width: 8257px;height: 430px;margin-left: 665px;margin-top: 65px;background: url(../image/head.png) no-repeat;}
+.div_head .headimg ul{width: 1680px;height: 170px;}
+.div_head .headimg ul li{width: 383px;height: 169px;background-image: url(../image/noselected.png);float: left;margin-right: 37px;text-align: center;line-height: 170px;cursor: pointer;}
+.div_head .headimg ul li span{color: #ffffff;font-size: 60px;font-weight: 700;} 
+.div_head .headimg .headLeft{margin: 160px 0 0 1740px;float: left;}
+.div_head .headimg .headRight{margin: 160px 1735px 0 0;;float: right;}
+.div_head .headimg ul li.select{background-image: url(../image/selected.png);}
+.div_head .headimg ul li.select span{color: #feee14;}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>警情态势</title>
+		<script type="text/javascript" src="../jslib/main.js?t=1" ></script>
+		<link rel="stylesheet" type="text/css" href="../ol3/ol.css"/>
+		<link rel="stylesheet" href="../css/policeState.css" />
+		<script type="text/javascript" src="../ol3/ol.js" ></script>
+	</head>
+	<body style="background-image: url(../image/background.png);">
+		<div class='outdiv div pState_div1'>
+			<div class='indiv'>
+				<div class='div_title'><span>警情通报</span></div>
+				<div class='cont cont1'>
+					<div class='left_subdiv'>
+						<p class='cont_title'>「今日警情」</p>
+						<p>今日接报有效警情：<span><i class='num yellow'>1302</i>起</span></p>
+					</div>
+					<div class='right_subdiv'>
+						<p class='cont_title'>「本月警情」</p>
+						<p>本月警情：<span><i class='num yellow'>1302</i>起</span></p>
+						<p>本月日均警情坏比：<span><i class='num red'>22%</i></span></p>
+					</div>
+				</div>
+				<div class="cont cont2">
+					<ul>
+						<li><i></i><i>1号派出所</i><i>1号派出所</i><i>1号派出所</i><i>1号派出所</i></li>
+						<li style='color: #dd6763;'><i>警情</i><i>1154</i><i>1154</i><i>1154</i><i>1154</i></li>
+						<li style='color: #7ab3fe;'><i>同比</i><i>22%</i><i>22%</i><i>22%</i><i>22%</i></li>
+					</ul>
+				</div>
+				<div class="cont cont3">
+					<div class='left_subdiv' style='width:40%;'>
+						<div class='subtitle'><i class='cube icon red'></i><i>「时间分类」</i></div>
+						<div id="Chart_sjfl" class='chart'></div>
+					</div>
+					<div class='right_subdiv' style='width:60%;top:20px;'>
+						<div class='subtitle'><i class='cube icon blue'></i><i>「本周案情走势」</i></div>
+						<div id='Chart_jqzs' class='chart'></div>
+					</div>
+				</div>
+				<div class="cont cont4">
+					<div class='subtitle'><i class='cube icon yellow'></i><i>「警情类型」</i></div>
+					<div class='chart' id='Chart_jqByType'></div>
+					<div class='subtitle'><i class='cube icon yellow'></i><i>「警情情报」</i></div>
+					<div class='txtdiv'>
+						<span>1</span>
+						<p>2015年1月2日13时14分，位于黑龙江省哈尔滨市道外区太古头道街的北方南勋陶瓷大市场的三层仓库起火，过火面积1.1万平方米，事故造成5名消防员遇难、14人受伤。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="outdiv pState_div2">
+			<div class="div sub1">
+				<div class='indiv'>
+					<div class='div_title'><span>接处警实时动态</span></div>
+					<div class='div_cont' style='margin:0 20px;height:80%;'>
+						<ul>
+							<li><i class='yellow'>3201</i><i class='blue'>3201</i><i class='yellow'>3201</i></li>
+							<li><i>接警数</i><i>处置中</i><i>已反馈</i></li>
+						</ul>
+						<div id='Chart_jcj' style='height:83%;margin:0 40px;'></div>
+					</div>
+				</div>
+			</div>
+			<div class="div sub2">
+				<div class='indiv'>
+					<div class='div_title'><span>重要警情通报</span></div>
+					<div class='txtdiv'>
+						<span>1</span>
+						<p>2015年1月2日13时14分，位于黑龙江省哈尔滨市道外区太古头道街的北方南勋陶瓷大市场的三层仓库起火，过火面积1.1万平方米，事故造成5名消防员遇难、14人受伤。</p>
+					</div>
+					<div class='txtdiv'>
+						<span>2</span>
+						<p>2015年1月2日13时14分，位于黑龙江省哈尔滨市道外区太古头道街的北方南勋陶瓷大市场的三层仓库起火，过火面积1.1万平方米，事故造成5名消防员遇难、14人受伤。</p>
+					</div>
+					<div class='txtdiv'>
+						<span>3</span>
+						<p>2015年1月2日13时14分，位于黑龙江省哈尔滨市道外区太古头道街的北方南勋陶瓷大市场的三层仓库起火，过火面积1.1万平方米，事故造成5名消防员遇难、14人受伤。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="outdiv div pState_div3">
+			<div class='indiv'>
+				<div class='div_title'><span>本日接警管辖分布分析</span></div>
+				<div id = 'centerMap' style='height:92%;margin:30px 20px;'></div>
+			</div>
+		</div>
+		<div class="outdiv pState_div4">
+			<div class="div sub">
+				<div class='indiv'>
+					<div class='div_title'><span>24小时警情走势环比</span></div>
+					<div class='content_title'><span class='font_aj'>当前案件总数：<i class='num yellow'>100</i>/件</span><span class='font_legend'><i class='icon yellow'></i><i>昨日警情</i><i class='icon blue'></i><i>当前警情</i></span></div>
+					<div id='LChartDay' class='line_chart'></div>
+				</div>
+			</div>
+			<div class="div sub">
+				<div class='indiv'>
+					<div class='div_title'><span>周警情走势环比</span></div>
+					<div class='content_title'><span class='font_aj'>当前案件总数：<i class='num yellow'>100</i>/件</span><span class='font_legend'><i class='icon yellow'></i><i>上周警情</i><i class='icon blue'></i><i>当前警情</i></span></div>
+					<div id='LChartWeek' class='line_chart'></div>
+				</div>
+			</div>
+			<div class="div sub">
+				<div class='indiv'>
+					<div class='div_title'><span>月警情走势环比</span></div>
+					<div class='content_title'><span class='font_aj'>当前案件总数：<i class='num yellow'>100</i>/件</span><span class='font_legend'><i class='icon yellow'></i><i>上月警情</i><i class='icon blue'></i><i>当前警情</i></span></div>
+					<div id='LChartMonth' class='line_chart'></div>
+				</div>
+			</div>
+		</div>
+		<div class="outdiv pState_div5">
+			<div class="div sub">
+				<div class='indiv'>
+					<div class='div_title'><span>犯法犯罪类警情排名</span></div>
+					<div class='chart' id='Bar_fffz'></div>
+				</div>
+			</div>
+			<div class="div sub">
+				<div class='indiv'>
+					<div class='div_title'><span>110接警处类别分析</span></div>
+					<div class='chart' id='Bar_110'></div>
+				</div>
+			</div>
+			<div class="div sub3">
+				<div class='indiv'>
+					<div class='div_title'><span>各单位警情排名</span></div>
+					<div class='chart' id='Bar_pm'></div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="../jslib/me.js" ></script>
+	<script type="text/javascript" src="../jslib/theme.js" ></script>
+	<script type="text/javascript" src="../js/private/policeState.js" ></script>
+</html>

@@ -1,0 +1,34 @@
+
+.clear{clear:both;}
+i{color:#fff;font-size: 1em;}
+ul>li{float:left;margin:20px 45px;overflow: hidden;}
+body p,body span{color:#fff;width:100%;}
+.left_div{width:2900px;height:2360px;border:10px solid #fff;padding:60px;}
+.span1{margin-right:50px;}
+.left_div .top{width: 100%;height:255px;padding:60px 250px;font-size: 50px }
+.left_div .top>ul{width:100%;}
+.left_div .top>ul>li>{width:24%;}
+.left_div .top>ul>li>img{width: 220px;height: 250px;float:left;}
+.left_div .top>ul>li>div{float: left}
+.left_div .zhzx{width:1650px;height:580px;border-top: 5px solid #fff;border-bottom: 5px solid #fff;border-right:5px solid #fff;float:left;font-size: 30px;overflow:hidden;}
+.left_div .xjdd{width:1170px;height:580px;border-top: 5px solid #fff;border-bottom: 5px solid #fff;float:left;font-size: 30px;overflow:hidden;padding-left:30px;}
+ .div>ul{padding:45px 0;}
+ .div>ul>li>img{width: 160px;height: 170px;float:left;padding-left:20px;}
+ .div>ul>li>div{float:left;font-size: 30px}
+ .div{padding-top:30px;}
+ .div>span{font-size:2.5em;border-top:3px solid #fff;border-bottom:3px solid #fff;}
+.left_div .wzxl{width: 2820;height: 770px;border-bottom:5px solid #fff;}
+.left_div .wzxl>span{font-size:5em;border-top:3px solid #fff;border-bottom:3px solid #fff;}
+.left_div .txjjy>span{font-size:5em;border-top:3px solid #fff;border-bottom:3px solid #fff;}
+.center_div .center_bottom{border:10px solid #fff;padding:30px 80px;margin-top:70px;height:400px;font-size:40px;}
+.center_div .center_bottom>p{font-size: 50px}
+.center_div .center_bottom>ul>li{margin:20px 0;width:610px;}
+.right_div{width:2900px;height: 2360px;border: 10px solid #fff;padding:60px;position: absolute;top:200px;right:0px;}
+.right_div .jjdd{height:710px;}
+.right_div .gpcs{height:1000px;border-top:8px solid #fff;border-bottom:8px solid #fff;}
+.right_div .div>span{font-size:5em;border-top:3px solid #fff;border-bottom:3px solid #fff;}
+/*不同类型的标题色*/
+.yellow{color: #feef15;}
+.red{color:#ff4848;}
+/*地图div*/
+.center_div .map_div{border:10px solid #fff;margin-top: -2520px;height: 1920px;}

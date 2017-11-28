@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>警务资源</title>
+		<script type="text/javascript" src="../jslib/main.js"></script>
+		<link rel="stylesheet" href="../css/policeResource.css?t=1" />
+		<link rel="stylesheet" type="text/css" href="../ol3/ol.css"/>
+		<script type="text/javascript" src="../ol3/ol.js" ></script>
+	</head>
+	<body style="padding-top:190px;">
+		<ul class="ul left_ul" style="left:0px;">
+			<!--<li class="leftbg1">
+				<p class='li_title yellow'>值班局长</p>
+				<p>
+					<span><img class='icon' src='../image/allarea.png'/><i class='li_name'>某某</i></span>
+					<span><img class='icon' src='../image/allarea.png'><i class='li_phone'>13517257209</i></span>
+					<span><img class='icon' src='../image/allarea.png'/><i class='li_radio'>196.67</i></span>
+				</p>
+			</li>-->
+		</ul>
+		<div class="center_div" style="width:34%;left:33%;position:absolute;padding-top:20px;">
+			<div class="map_div" id='pRmap'></div>
+			<ul class="center_ul" style="width:100%;">底部列表</ul>
+		</div>
+		<ul class="ul right_ul" style="right:0px;">右列表</ul>
+	</body>
+	<script type="text/javascript" src="../js/private/policeResource.js?t=1"></script>
+</html>

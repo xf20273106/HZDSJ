@@ -1,0 +1,31 @@
+em{display:block;text-align:center;padding:15px;}
+.em_num{background:#FBB040;}
+.div{position:absolute;top:0px;bottom:0px;width:24%;}
+.peopleTitle{width:100%;height:210px;}
+.peopleTitle .cn{line-height: 190px;display: inline-block;font-size: 4em;color: #fff;padding:0px 2%;}
+/*内容标题*/
+.peopleContent{color: #fff;font-size: 2em;position:relative;}
+.peopleContent .contInfo{display:inline-block;margin:1% 2%;}
+.peopleContent .contInfo i{display: inline-block;float:left;margin:0px 1%;}
+.peopleContent .contInfo.right{position: absolute;top: 1%;right: 2%;}
+.peopleContent .contInfo .cube{background: #7ab3fe;width:20px;height:45px;}
+.peopleContent .contInfo .cube_man{background: #e6d929;width:40px;height:45px;}
+.peopleContent .contInfo .cube_man.long{width:150px;height:25px;margin-top:10px;}
+.peopleContent .contInfo .cube_woman{background: #7ab3fe;width:40px;height:45px;}
+.peopleContent .contInfo .cube_woman.long{width:150px;height:25px;margin-top:10px;}
+/*转轴*/
+.roateNum{height: 450px;width: 25%;text-align: center;padding-top: 50px;float: left;position: relative;}
+.roate{position: absolute;top: 85px;left: 140px;}
+.centerNum{position: absolute;width: 180px;height: 130px;text-align: center;top: 175px;left: 195px;}
+.centerNum .num{font-size:2em;}
+/*左div*/
+.left_div{left:0px;}
+.model.left1{background: url(../image/people_left_03.png) no-repeat;width:100%;height:46%;margin-bottom:3%;}
+.model.left2{background:url(../image/people02.png) no-repeat;width:100%;height:51%;}
+/*中心统计图部分*/
+.center_div{top:150px;left:25%;width:50%;}
+.model.center{background:url(../image/people_center.png) no-repeat;height:100%;width:49.2%;float:left;}
+/*右侧div*/
+.right_div{right:0px;}
+.model.right1{background:url(../image/people05.png) no-repeat;width:100%;height:45%;margin-bottom:11%;}
+.model.right2{background:url(../image/people06.png) no-repeat;width:100%;height:46%;}

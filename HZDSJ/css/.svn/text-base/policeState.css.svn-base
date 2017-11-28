@@ -1,0 +1,64 @@
+/*最外层div布局*/
+.outdiv{position:absolute;bottom:0px;width:16%;}
+.pState_div1{left:0px;top:0px;}
+.pState_div2{left:16.5%;top:150px;}
+.pState_div3{left:33%;top:150px;width:34%;}
+.pState_div4{right:16.5%;top:150px;}
+.pState_div5{right:0px;top:0px;}
+/*div统一样式*/
+.div{border:7px solid #5ef0ff;}
+.outdiv .indiv{background:#102B65;margin:30px;}
+.left_subdiv{float:left;}
+.right_subdiv{position: absolute;right:0px;top:0px;}
+/*标题样式*/
+.indiv .div_title{color:#fff;height:130px;line-height:130px;border-bottom:8px solid #5EF0FF;margin:0 20px;}
+.indiv .div_title span{font-size: 3em;font-weight:bold;border-top: 8px solid #fff;}
+/*段落的统一边框样式*/
+.txtdiv{border-top:7px solid #5EF0FF;border-bottom:7px solid #5EF0FF;position:relative;}
+.txtdiv span{top: 0px;left: 0px;position: absolute;padding: 15px;background: #5ef0ff;}
+.txtdiv p{line-height:100px;margin-left: 60px;}
+/*字体、legend*/
+.num{font-size: 2em;}
+.yellow{color: #e6d929;}
+.red{color: #dd6763;}
+.blue{color:#7ab3fe;}
+.icon.red{background:#dd6763;}
+.icon.yellow{background:#e6d929;}
+.icon.blue{background:#7ab3fe;}
+.cube{display: inline-block;width: 20px;height: 42px;}
+/*div1*/
+.pState_div1 .indiv .cont{height:15%;margin:0 20px;border-bottom: 7px solid rgba(255,255,255,0.5);color:#fff;font-size:2em;}
+.pState_div1 .indiv .cont1{position:relative;}
+.pState_div1 .indiv .cont1 div{width:45%;}
+.pState_div1 .indiv .cont1 .cont_title{background: #3f51b5;margin: 40px 0px;line-height: 120px;text-align: center;}
+.pState_div1 .indiv .cont1 p{line-height:80px;}
+.pState_div1 .indiv .cont1 p span{float:right;}
+.pState_div1 .indiv .cont2 ul>li i{width: 20%;display: inline-block;line-height: 130px;text-align: center;}			
+.pState_div1 .indiv .cont3{height:25%;position:relative;}
+.pState_div1 .indiv .cont3 .left_subdiv{padding: 20px 0px;}
+.pState_div1 .indiv .cont3 .subtitle i{float: left;}
+.pState_div1 .indiv .cont3 .left_subdiv,.pState_div1 .indiv .cont3 .right_subdiv{height:94%;}
+.pState_div1 .indiv .cont3 .chart{width:100%;height:100%;}
+.pState_div1 .indiv .cont4{height:39%;border:0px;}
+.pState_div1 .indiv .cont4 .subtitle{width: 100%;height: 42px;margin: 20px 0px;}
+.pState_div1 .indiv .cont4 .subtitle i{float:left;}
+.pState_div1 .indiv .cont4 .chart{width:100%;height:50%;}
+/*div2*/
+.pState_div2 .div.sub1{height:36%;margin-bottom:2%;}
+.pState_div2 .sub1 .indiv .div_cont{color:#fff;font-size:2em;}
+.pState_div2 .sub1 .indiv .div_cont ul{margin:30px 0px;}
+.pState_div2 .sub1 .indiv .div_cont ul>li i{width:33.33%;display:inline-block;text-align:center;}
+.pState_div2 .div.sub2{height:61.7%;}
+.pState_div2 .div .indiv .txtdiv{color:#fff;font-size:2em;margin:60px 20px;}
+/*div3*/
+/*div4*/
+.pState_div4 .div.sub{height:32%;margin-bottom:2%;}
+.pState_div4 .div.sub .content_title{color: #fff;margin: 0 20px;font-size: 1.5em;height: 65px;line-height: 65px;position:relative;}
+.pState_div4 .div.sub .content_title .font_legend{position: absolute;right: 0px;}
+.pState_div4 .div.sub .content_title .font_legend i{float:left;}
+.pState_div4 .div.sub .content_title .font_legend .icon{display: inline-block;height: 35px;width: 35px;margin: 15px;}
+.pState_div4 .div.sub .line_chart{width: 100%;height: 73%;}
+/*div5*/
+.pState_div5 .div.sub{height:33%;margin-bottom:2%;}
+.pState_div5 .div.sub3{height:30.2%;}
+.pState_div5 .div .indiv .chart{width:100%;height:83%;}

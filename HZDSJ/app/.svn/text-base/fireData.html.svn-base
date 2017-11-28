@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset="UTF-8">
+		<title>消防数据</title>
+		<script type="text/javascript" src="../jslib/main.js" ></script>
+		<link rel="stylesheet" type="text/css" href="../css/fireData.css"/>
+		<link rel="stylesheet" type="text/css" href="../ol3/ol.css"/>
+		<script type="text/javascript" src="../ol3/ol.js" ></script>
+		<script type="text/javascript" src="../jslib/theme.js" ></script>
+		<script type="text/javascript" src="../jslib/me.js" ></script>
+		<script type="text/javascript" src="../js/private/fireData.js" ></script>
+		<script type="text/javascript" src="../jslib/jquery.SuperSlide.2.1.1.js" ></script>
+	</head>
+	<body  style="background-image: url(../image/background.png);">
+		<div class="left">
+			<div class="headSpan">
+				<span>「重点关注地理位置」</span>
+			</div>
+			<div class="zdGzDlWz" id="zdGzDlWz">
+				
+			</div>
+		</div>
+		<div class="center1">
+			<div class="headSpan">
+				<span>「全区消防警情」</span>
+			</div>
+			<!--灾害事故警情等级-->
+			<div class="zhsgjqdj" id="zhsgjqdj">
+				
+			</div>
+			<!--各街道灾害事故接警情况-->
+			<div class="gjdzhsg" id="gjdzhsg">
+				
+			</div>
+		</div>
+		<div class="center2">
+			<div class="headSpan">
+				<span>「消防重点单位」</span>
+			</div>
+			<div class="sjzddwNum" id="sjzddwNum">
+				
+			</div>
+			<div class="gdszddwNum" id="gdszddwNum">
+				
+			</div>
+			<div class="xxdwBottom">
+				<div class="xxdwBottom1" id="xxdwBottom1">
+					
+				</div>
+				<div class="xxdwBottom2" id="xxdwBottom2">
+					
+				</div>
+			</div>
+		</div>
+		
+		<div class="center3">
+			<div class="headSpan">
+				<span>「危化品企业」</span>
+			</div>
+			<div class="whpqytj" id="whpqytj">
+				
+			</div>
+			<div class="whpqy">
+				<span>「危化品企业」</span>
+				<li>
+					<span class="whpqymc">名称</span>
+					<span class="whpqylx">危化品类型</span>
+					<span class="whpqydbr">法定代表人</span>
+					<span class="whpqyfzr">治安负责人</span>
+				</li>
+				<ul class="bd">
+					<li >
+						<span class="whpqymc">AAAA</span>
+						<span class="whpqylx">甲级</span>
+						<span class="whpqydbr">张三</span>
+						<span class="whpqyfzr">李四</span>
+					</li>
+					<li class="whpqySelect">
+						<span class="whpqymc">AAAA</span>
+						<span class="whpqylx">甲级</span>
+						<span class="whpqydbr">张三</span>
+						<span class="whpqyfzr">李四</span>
+					</li>
+					<li >
+						<span class="whpqymc">AAAA</span>
+						<span class="whpqylx">甲级</span>
+						<span class="whpqydbr">张三</span>
+						<span class="whpqyfzr">李四</span>
+					</li>
+					<li class="whpqySelect">
+						<span class="whpqymc">AAAA</span>
+						<span class="whpqylx">甲级</span>
+						<span class="whpqydbr">张三</span>
+						<span class="whpqyfzr">李四</span>
+					</li>
+					<li >
+						<span class="whpqymc">AAAA</span>
+						<span class="whpqylx">甲级</span>
+						<span class="whpqydbr">张三</span>
+						<span class="whpqyfzr">李四</span>
+					</li>
+					<li class="whpqySelect">
+						<span class="whpqymc">AAAA</span>
+						<span class="whpqylx">甲级</span>
+						<span class="whpqydbr">张三</span>
+						<span class="whpqyfzr">李四</span>
+					</li>
+					<li >
+						<span class="whpqymc">AAAA</span>
+						<span class="whpqylx">甲级</span>
+						<span class="whpqydbr">张三</span>
+						<span class="whpqyfzr">李四</span>
+					</li>
+					<li class="whpqySelect">
+						<span class="whpqymc">AAAA</span>
+						<span class="whpqylx">甲级</span>
+						<span class="whpqydbr">张三</span>
+						<span class="whpqyfzr">李四</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="right">
+			<div class="headSpan">
+				<span>「火灾隐患」</span>
+			</div>
+			<div class="hzzgqk" id="hzzgqk">
+				
+			</div>
+			<div class="hzyhdw" id="hzyhdw">
+				
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		var map = new ol.Map({
+		    layers: [
+		        new ol.layer.Tile({
+		            source: new ol.source.OSM()
+		        })
+		    ],
+		    view: new ol.View({
+		        center: [0, 0],
+		        zoom: 5
+		    }),
+		    target: 'zdGzDlWz'
+		});
+		
+		var view = map.getView();
+		var hz = ol.proj.fromLonLat([119,34]);
+		view.setZoom(10);
+		view.setCenter(hz);
+		
+		$.zhsgjqdj('zhsgjqdj','pie',"../json/pState_time.json");
+		$.sjzddwNum('sjzddwNum',"../json/firethreeyear.json");
+		$.hzyhdw('hzyhdw',"../json/fireyhdwtype.json");
+		$.whpqytj('whpqytj',"../json/firewhpqy.json");
+		$.hzzgqk("hzzgqk","../json/people_ldrk.json");
+		$.xxdwBottom2('xxdwBottom2','pie',"../json/pState_time.json");
+		$.xxdwBottom1('xxdwBottom1','pie',"../json/pState_time.json");
+		$.gdszddwNum("gdszddwNum","bar","../json/people_czrk.json");
+		$.gjdzhsg("gjdzhsg","bar","../json/people_czrk.json");
+		
+		jQuery(".whpqy").slide({mainCell:".bd",autoPage:true,effect:"topLoop",autoPlay:true,vis:8});
+		
+		
+	</script>
+</html>

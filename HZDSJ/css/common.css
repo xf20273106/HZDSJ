@@ -1,0 +1,42 @@
+/*页面初始化*/
+body,html{padding:0;margin:0;font-size: 1em;}/*overflow:hidden;*/
+/*html{overflow-y:auto}*/
+ul,li,dl,dd,form,p,h3{padding:0;margin:0;}
+a,p,span,ul,em,li,img,table,td{ font-family:"微软雅黑"; font-weight:normal;text-decoration:none; list-style:none;border:none;margin:0px;}
+a{text-decoration:none;}
+input,a:focus{outline:none;}
+ul,li{list-style: none;}
+img{border:0px;}
+i,s,em{list-style:none;font-style:normal;}
+/*::-webkit-scrollbar{width:15px !important;height:5px !important;}
+::-webkit-scrollbar-track-piece{background:#eee !important;}
+::-webkit-scrollbar-track-piece:no-button{}
+::-webkit-scrollbar-thumb{background:#bbb !important;border-radius:5px !important;}
+::-webkit-scrollbar-thumb:hover{background:#919191 !important;cursor:pointer !important;}
+::-webkit-scrollbar-thumb:active{background:#919191 !important;cursor:pointer !important;}*/
+.r{float: right;}
+.l{float: left;}
+
+/*转轴效果*/
+.roate{
+ -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+    -webkit-animation: rotate 3s linear infinite;
+    -moz-animation: rotate 3s linear infinite;
+    -o-animation: rotate 3s linear infinite;
+    animation: rotate 10s linear infinite;}
+@-webkit-keyframes rotate{from{-webkit-transform: rotate(0deg)}
+    to{-webkit-transform: rotate(360deg)}
+}
+@-moz-keyframes rotate{from{-moz-transform: rotate(0deg)}
+    to{-moz-transform: rotate(359deg)}
+}
+@-o-keyframes rotate{from{-o-transform: rotate(0deg)}
+    to{-o-transform: rotate(359deg)}
+}
+@keyframes rotate{from{transform: rotate(0deg)}
+    to{transform: rotate(359deg)}
+}
+
